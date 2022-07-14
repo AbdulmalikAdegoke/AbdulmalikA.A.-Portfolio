@@ -1,4 +1,4 @@
-# AbdulmalikA.A.-Portfolio
+# Abdulmalik A.A.-Portfolio
 Abdulmalik A. Adegoke's portfolio
 - Purpose of this portfolio is to portray my skills through the user experience whilst using the page and also showcasing my notable projects as well.
 
