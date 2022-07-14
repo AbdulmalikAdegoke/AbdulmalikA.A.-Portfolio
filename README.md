@@ -15,7 +15,7 @@ Porfolio requirements:
 
 Prerequisites
 - HTML, CSS, JavaScript
-- Potential frameworks and libraries- (React, NodeJs, Material UI, Bootstrap.....)
+- Potential frameworks and libraries- (React, NodeJs, Material UI, Bootstrap, Ant Design, Reactstrap.....)
 - 
 
 
