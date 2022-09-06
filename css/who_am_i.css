@@ -1,0 +1,102 @@
+/* who am i section styles */
+
+.containers.who_am_i{
+  width: 100%;
+  background-color: #e9d8a6;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+.sub_headings.w_a_i{
+  color: black;
+}
+
+.profile{
+  width: 100%;
+}
+.profile_summary{
+  /* width: 50%; */
+  /* border-width: ; */
+  /* border: 2px solid black; */
+  padding: 10% 25%;
+  /* box-shadow: 10px 15px; */
+  /* height: 40vh; */
+
+  /* transition: box-shadow 1s ease, background-color 2s ease, color 2s ease; */
+}
+.profile_summary p{
+  font-size: larger;
+}
+.profile_summary:hover b{
+  /* color: white; */
+  /* text-align: center; */
+  text-decoration: underline;
+}
+.profile_summary h2{
+  /* color: white; */
+  /* text-align: center; */
+}
+.profile_summary:hover h2{
+  color: white;
+  /* text-align: center; */
+}
+.profile_summary:hover{
+  /* background-color: black; */
+
+
+  /* box-shadow: 10px 10px rgb(130, 130, 130);; */
+}
+
+
+.profile_content{
+  width: 30%;
+  /* float: right; */
+  /* text-align: justify */
+}
+
+.page_buttons.white_black.about_me{
+
+}
+
+.portrait_image{
+  width: 50%;
+  /* float: left; */
+  height: fit-content;
+}
+
+.portrait_img{
+  /* height: 200px; */
+  max-height: 75vh;
+  box-shadow: 25px 25px black;
+}
+
+
+
+/* Desktop and laptop */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Laptop and tablet */
+@media only screen and (min-width: 970px) {
+  .profile_content{
+    width: 60%;
+    float: right;
+    /* text-align: justify; */
+  }
+
+  .profile_summary{
+    width: 100%;
+    /* border-width: ; */
+    /* border: 2px solid black; */
+    padding: 5% 10%;
+
+  }
+
+  .portrait_image{
+    width: 40%;
+    float: left;
+    height: fit-content;
+  }
+}

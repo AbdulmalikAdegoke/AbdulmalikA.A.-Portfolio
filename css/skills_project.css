@@ -1,0 +1,78 @@
+/* skills and projects section style */
+
+.containers.skills_project{
+  background-color: #ee9b00;
+  color: white;
+}
+.skills_project_content{
+
+}
+.page_cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 2%;
+  height: 45vh;
+  border-radius: 5%;
+  color: black;
+  font-weight: bold;
+
+  transition: border-radius 2s ease;
+
+}
+.page_cards:hover{
+  cursor: pointer;
+  border-radius: 0;
+
+}
+.page_cards.skills{
+  background-color: white;
+}
+
+.page_cards.skills{
+  height: 45vh;
+  width: 90%;
+}
+.page_cards.notable_projects{
+  height: 45vh;
+  width: 90%;
+  background-color: white;
+}
+.as_a_developer,.as_a_designer,.as_a_photographer{
+  width: 40%;
+  text-align: justify;
+}
+.as_a_developer{
+
+
+  /* border: ; */
+}
+.as_a_designer{
+
+
+}
+.as_a_photographer{
+
+}
+.projectTile{
+
+}
+/* Desktop and laptop */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Laptop and tablet */
+@media only screen and (min-width: 970px) {
+  .page_cards.skills{
+    float: left;
+    width: 45%;
+    height: 75vh;
+  }
+  .page_cards.notable_projects{
+    float: right;
+    width: 45%;
+    height: 75vh;
+  }
+}

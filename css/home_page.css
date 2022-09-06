@@ -1,0 +1,94 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  /* height: 0; */
+}
+body{
+  /* margin: 20px 250px; */
+  background-color: 	#F0F0F0;
+  /* background-image: url(Images/Gloomy.jpg); */
+  /* overflow: hidden; */
+}
+#who_am_i{
+
+}
+#who_am_i_header{
+
+}
+#who_am_i_title{
+
+}
+#who_am_i_body{
+
+}
+#skills{
+
+}
+#as_a_programmer{
+
+}
+#as_a_programmer_header{
+
+}
+#as_a_programmer_body{
+
+}
+#as_a_photographer{
+
+}
+#as_a_photographer_header{
+
+}
+#as_a_photographer_body{
+
+}
+#as_an_artist{
+
+}
+#as_an_artist_header{
+
+}
+#as_an_artist_body{
+
+}
+#as_an_animator{
+
+}
+#as_a_videographer{
+
+}
+#as_a_videographer_header{
+
+}
+#as_a_videographer_body{
+
+}
+#as_a_youtuber{
+
+}
+#as_a_youtuber_header{
+
+}
+#as_a_youtuber_body{
+
+}
+#experience{
+
+}
+#contact_me{
+
+}
+/* For phones */
+@media only screen and (max-width: 1200px) {
+/* Section and Div Box responsive styling including the styling of the bootstarp Jumbotron */
+.make_transcript_body{
+  padding: 0;
+}
+}
+/* For phones */
+@media only screen and (max-width: 600px) {
+/* Section and Div Box responsive styling including the styling of the bootstarp Jumbotron */
+#file_upload_box{
+  width: 100%;
+}
+}

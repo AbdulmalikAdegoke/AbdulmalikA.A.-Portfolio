@@ -1,20 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
 *, html, body {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
+
+
+.containers{
+  padding: 0 15%;
+}
+.containers{
+  min-height: 100vh;
+
+  scroll-snap-align: start;
+}
+
+
+
 
 /* fonts */
+h1, h2{
+  font-family: 'Montserrat', sans-serif;
+}
+h3,h4{
+  font-family: 'Fira Sans', sans-serif;
+}
 h1{
-
+  font-weight: 900;
 }
 h2{
-
+  font-weight: 800;
+  font-size: 40px;
+  /* font-size: larger; */
 }
 h3{
+  font-weight: 700;
+}
+h4{
+  font-weight: 500;
+}
+h2.sub_headings{
+  font-weight: 800;
+  color: white;
+}
+/* h2 .sub_headings{
+
+} */
+
+/* h1 span{
+
 
 }
 
-.header{
+
+h3 .sub_headings.black_white{
+
+}
+h3 .sub_headings.white_black{
+
+}
+
+h4 .sub_headings.black_white{
+
+}
+h4 .sub_headings.white_black{
+
+} */
+
+p{
+  font-family: 'Work Sans', sans-serif;
+  font-size: larger;
+}
+
+/* buttons */
+.page_buttons{
+  font-family: 'Fira Sans', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
+  padding: 2.5% 50px;
+  font-weight: 500;
+  font-size: large;
+  background-color: rgba(0, 0, 0, 0.0);
+  /* font-weight: 700; */
+  box-shadow: 10px 10px;
+  margin-top: 20px;
+  transition: box-shadow 2s ease, background-color 1s linear, color 1s linear, font-weight 1s ease;
+}
+.page_buttons:hover{
+  font-weight: 800;
+  cursor: pointer;
+}
+.page_buttons.white_black{
+
+}
+.page_buttons.white_black:hover{
+  background-color: black;
+  color: white;
+  box-shadow: 5px 10px rgb(238, 155, 0);
+}
+.page_buttons.black_white{
+  background-color: white;
+  color: black;
+  box-shadow: 10px 10px rgb(130, 130, 130);
+}
+.page_buttons.black_white:hover{
+  background-color: black;
+  color: white;
+  box-shadow: -5px 10px white;
+  border: 2px solid white;
+}
+/* Shared and general styling */
+ul{
+  list-style-type: none;
+
+}
+h1 ul{
+  padding: 0;
+}
+li{
+
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+.nav_links{
+
+}
+.nav_links:hover{
+  text-decoration: underline;
+  color: white;
+}
+/* Laptop and tablet */
+@media only screen and (min-width: 970px) {
+
+}
+
+
+/* Buttons */
+
+
+/* .bg_img_preview{
+  width: 100%;
+  display: flex;
+  min-height: 100%;
+  height: 100vh;
+  background-image: url("./Assets/Abdulmalik\'s\ portrait V4.2.jpg"), url("./Assets/Abdulmalik\'s\ portrait V4.jpg"), url("./Assets/Abdulmalik\'s\ portrait V4.5.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+.home_page_view{
+  /* display: flex; */
+  /* scroll-snap-type: x proximity; */
+}
+
+.navbar{
+
+}
+.navbar_title{
+
+}
+
+/* .header{
 
 }
 .page_haeder_title{
@@ -28,50 +182,23 @@ h3{
 }
 .nav_links{
 
-}
+} */
 
 /*  */
 .body_container{
 
-}
-
-/*  */
-.who_am_i_container{
-
-}
-.profile_content{
-
-}
-.profile{
-
-}
-.portrait_image{
+  /* text-align: center; */
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+  /* scroll-padding: 10%; */
+  /* scroll-snap-type: ; */
+  position: relative;
 
 }
 
-/*  */
-.skills_project_container{
-
-}
-.skills_project_content{
-
-}
-
-/*  */
-.experience_container{
-
-}
-.experience_qual_content{
-
-}
-.experience_qual_box{
-
-}
-.portrait_image{
-
-}
-
-/*  */
-.contacts_container{
+.containers{
+  padding: 2% 5%;
 
 }

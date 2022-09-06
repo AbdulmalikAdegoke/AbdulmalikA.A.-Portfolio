@@ -1,0 +1,28 @@
+/* experience x qualifications section styling */
+
+.containers.experience_qualifications{
+  background-color: #bb3e03;
+  color: white;
+
+
+}
+.experience_qualifications_content{
+
+}
+.experience_qualifications_box{
+  width: 60%;
+  float: right;
+  text-align: justify;
+}
+.portrait_image{
+
+}
+/* Desktop and laptop */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Laptop and tablet */
+@media only screen and (min-width: 970px) {
+
+}

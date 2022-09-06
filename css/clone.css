@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
+/*
+#00133F
+#FE836D
+#604A82
+#8B405F
+ */
+html,body{
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  /* padding-left: 15%;
+  padding-right: 15%; */
+}
+.nav{
+  width: 100%;
+  background-color: #00133F;
+  float: right;
+  position: fixed;
+  top: 0;
+
+}
+ul{
+  width: 100%;
+
+  color: white;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+
+
+
+}
+li{
+  text-align: center;
+  /* display: inline; */
+  float: right;
+
+
+}
+li a{
+  color: white;
+  font-weight: bold;
+  display: block;
+  padding: 20px 25px;
+  text-decoration: none;
+  transition: text-decoration 2s ease-in;
+}
+li a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.body_container{
+
+  width: 100%;
+  /* margin-top: 50px; */
+}
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+  text-decoration: underline #00133F;
+}
+div{
+
+}
+.intro{
+
+  font-weight: 900;
+  background-image: url("../assets/Abdulmalik and laptop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.intro_content{
+  padding: 10%;
+  background-color: #FE836D;
+  color: #00133F;/*white;*/
+}
+.intro_content b{
+  /* text-decoration: underline white; */
+  color: white;
+}
+#interest_img{
+  height: inherit;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+b{
+
+}
+b #main_title{
+
+}
+button{
+  background-color: rgba(0,0,0,0);
+  color: white;
+  border: none;
+}
+span #other_interests{
+
+}
+span{
+
+}
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+.section_container{
+  width: 100%;
+  min-height: 100vh;
+
+
+  padding: 2% 15%;
+  padding-top: 70px;
+  overflow:hidden;
+  /* padding-left: 15%;
+  padding-right: 15%;
+  padd */
+}
+.section_container.intro{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.about{
+  background-color: #FE836D;
+  color: white;
+
+}
+.heading{
+
+}
+.section_heading.about_section{
+  color: #00133F;
+}
+.portrait_img{
+  /* height: 200px; */
+  max-height: 75vh;
+  /* border-radius: 50%; */
+  /* box-shadow: 25px 25px black; */
+}
+
+.about_content{
+
+}
+
+.profile{
+  width: 100%;
+}
+.profile_summary{
+  color: white;
+  /* font-size: ; */
+}
+p{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+/* Laptop and tablet */
+@media only screen and (min-width: 970px) {
+  .profile_content{
+    width: 55%;
+    float: right;
+    /* text-align: justify; */
+  }
+
+  .profile_summary{
+    width: 100%;
+    /* border-width: ; */
+    /* border: 2px solid black; */
+    /* padding: 5% 10%; */
+
+  }
+
+  .portrait_image{
+    /* width: 40%; */
+    float: left
+  }
+}
+
+button{
+
+}
+.skills{
+  background-color: #8B405F;
+}
+.heading{
+
+}
+
+.section_heading{
+  font-family: 'Fira Sans', sans-serif;
+}
+.sub_heading{
+  font-family: 'Cardo', serif;
+  color: white;
+  /* font-weight: 700; */
+}
+
+.section_heading.skills_section{
+  color: #FE836D;
+}
+div.col{
+  text-align: center;
+  color: white;
+}
+p{
+
+}
+ .skills_icon{
+   height: 70px;
+ }
+.skills_tools{
+
+
+}
+
+/* Laptop and tablet */
+@media only screen and (min-width: 970px) {
+
+}
+.projects{
+  background-color: #191a31;
+
+}
+.section_heading.projects_section{
+  color: #FF8286;
+}
+.heading{
+
+}
+.project{
+  width: 100%;
+  display: inline-block;
+}
+
+.project.left{
+
+}
+.project_image{
+
+}
+.project_description{
+  width: 40%;
+}
+.project_description h3{
+  color: white;
+  text-decoration: underline #FF8286;
+}
+.tech_icons{
+
+}
+
+.project_skills{
+  color: white;
+  text-decoration: underline #FF8286;
+}
+.project_tech_skills{
+  color: white;/*#FF8286;*/
+}
+/* Laptop and tablet */
+@media only screen and (min-width: 970px) {
+  .project_image{
+    width: 40%;
+  }
+  .project_description{
+    width: 50%;
+  }
+  .project_image.left,.project_description.left{
+    float: left;
+  }
+  .project_description.right,.project_image.right{
+    float: right;
+  }
+}
+
+.section_container.experience_qualifications{
+  background-color: #3D345B;
+}
+
+.section_heading.experience_section{
+  /* color: #191a31; */
+  color: #F09DC0;
+}
+.experience_qualifications_box{
+  width: 60%;
+  float: right;
+
+}
+
+/* Laptop and tablet */
+@media only screen and (min-width: 970px) {
+
+}
+.section_container.contact{
+  background-color: #604A82;
+}
+.section_heading.contact_section{
+  color: #FE836D;
+}
+.navbar_list{
+  display: flex;
+}
+.nav_links{
+
+}
+.contacts_nav{
+
+}
+.contact_icon{
+  height:70px;
+}
+.portfolio_feedback{
+
+}
+.ig_icons{
+  height: 30px;
+}
+
+.footer{
+
+}
+
+/* Laptop and tablet */
+@media only screen and (min-width: 970px) {
+
+}
