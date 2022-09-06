@@ -72,7 +72,7 @@ a{
 }
 a:hover{
   color: white;
-  text-decoration: underline #00133F;
+  text-decoration: underline #FE836D;/*#00133F;*/
 }
 div{
 
@@ -86,7 +86,7 @@ div{
 }
 .intro_content{
   padding: 10%;
-  background-color: #FE836D;
+  background-color: rgba(254, 131, 109, 0.6); /*#FE836D;*/
   color: #00133F;/*white;*/
 }
 .intro_content b{
@@ -94,7 +94,7 @@ div{
   color: white;
 }
 #interest_img{
-  height: inherit;
+  height: 40px;
 }
 h1{
   font-family: 'Montserrat', sans-serif;
@@ -112,8 +112,8 @@ button{
   color: white;
   border: none;
 }
-span #other_interests{
-
+#other_interests{
+  color: white;
 }
 span{
 
@@ -124,9 +124,7 @@ h1{
 h2{
 
 }
-h3{
 
-}
 .section_container{
   width: 100%;
   min-height: 100vh;
@@ -141,11 +139,12 @@ h3{
 }
 .section_container.intro{
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
+  bottom: 0;
 }
 .about{
-  background-color: #FE836D;
+  background-color: #191a31;
   color: white;
 
 }
@@ -153,7 +152,7 @@ h3{
 
 }
 .section_heading.about_section{
-  color: #00133F;
+  color: #FE836D;/*#00133F*/
 }
 .portrait_img{
   /* height: 200px; */
@@ -203,7 +202,7 @@ p{
 button{
 
 }
-.skills{
+.skills,.experience_qualifications{
   background-color: #8B405F;
 }
 .heading{
@@ -219,7 +218,7 @@ button{
   /* font-weight: 700; */
 }
 
-.section_heading.skills_section{
+.section_heading.skills_section,.section_heading.experience_section{
   color: #FE836D;
 }
 div.col{
@@ -229,9 +228,9 @@ div.col{
 p{
 
 }
- .skills_icon{
-   height: 70px;
- }
+.skills_icon{
+  height: 70px;
+}
 .skills_tools{
 
 
@@ -241,7 +240,7 @@ p{
 @media only screen and (min-width: 970px) {
 
 }
-.projects{
+.projects,.contact{
   background-color: #191a31;
 
 }
@@ -269,6 +268,9 @@ p{
   color: white;
   text-decoration: underline #FF8286;
 }
+/* .qualifications h4, .experience h4{
+
+} */
 .tech_icons{
 
 }
@@ -283,7 +285,7 @@ p{
 /* Laptop and tablet */
 @media only screen and (min-width: 970px) {
   .project_image{
-    width: 40%;
+    width: 45%;
   }
   .project_description{
     width: 50%;
@@ -296,38 +298,51 @@ p{
   }
 }
 
-.section_container.experience_qualifications{
+/* .section_container.experience_qualifications{
   background-color: #3D345B;
-}
+} */
 
-.section_heading.experience_section{
-  /* color: #191a31; */
+/* .section_heading.experience_section{
+  color: #191a31;
   color: #F09DC0;
-}
+} */
 .experience_qualifications_box{
   width: 60%;
   float: right;
 
 }
+.qualifications h3, .experience h3{
+  color: #FE836D;
+}
+
+.qualifications h4, .experience h4{
+  color: white;
+  border-bottom: 2px solid #FF8286;
+  /* color: #191a31; */
+}
 
 /* Laptop and tablet */
 @media only screen and (min-width: 970px) {
-
+  .portrait_img.grad{
+    max-height: 100vh;
+  }
 }
 .section_container.contact{
-  background-color: #604A82;
+  min-height: 70vh;
 }
 .section_heading.contact_section{
   color: #FE836D;
 }
 .navbar_list{
   display: flex;
+  text-align: justify;
 }
 .nav_links{
-
+  padding: 0;
+  padding-right: 15px;
 }
 .contacts_nav{
-
+  text-align: left;
 }
 .contact_icon{
   height:70px;
@@ -336,7 +351,7 @@ p{
 
 }
 .ig_icons{
-  height: 30px;
+  height: 25px;
 }
 
 .footer{
