@@ -81,8 +81,16 @@ div{
 
   font-weight: 900;
   background-image: url("../assets/Abdulmalik and laptop.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+}
+@media only screen and (min-width: 970px) {
+  .intro{
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 .intro_content{
   padding: 10%;
@@ -127,7 +135,7 @@ h2{
 
 .section_container{
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 
 
   padding: 2% 15%;
@@ -141,7 +149,8 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 0;
+  /* bottom: 0; */
+  min-height: 100vh;
 }
 .about{
   background-color: #191a31;
