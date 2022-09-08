@@ -364,7 +364,14 @@ p{
 }
 
 .footer{
-
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  margin: 0;
+  background-color: #FE836D;
+}
+.copyright_disclaimer{
+  margin: 0;
 }
 
 /* Laptop and tablet */
